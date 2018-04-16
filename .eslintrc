@@ -22,9 +22,6 @@
     }],
     "jsx-a11y/interactive-supports-focus": 1,
     "max-len": 0,
-    "new-cap": [2, {
-      "capIsNewExceptions": ["List", "Map", "Set"]
-    }],
     "no-alert": 1,
     "no-console": 2,
     "no-unused-vars": 2,
@@ -39,7 +36,9 @@
     "no-confusing-arrow": "off",
     "react/sort-comp": "off",
     "no-undef": "off",
-    "react/require-default-props": "off"
+    "react/require-default-props": "off",
+    "new-cap": "off",
+    "react/prefer-stateless-function": "off"
   },
   "parser": "babel-eslint",
   "parserOptions": {
